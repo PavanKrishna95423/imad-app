@@ -30,6 +30,9 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/video.mp4', function (req, res) {
   res.sendFile(path.join(__dirname, 'video.mp4'));
 });
+app.get('/vinita.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'vinita.jpg'));
+});
 
 
 // Do not change port, otherwise your app won't run on IMAD servers
